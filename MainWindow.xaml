@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="btnPercentuale">
+        <Image HorizontalAlignment="Left" Height="420" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="794" Source="sfondo.png" Stretch="Fill"/>
+
         <ProgressBar x:Name="Progressbarx" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="242" Margin="278,106,0,0"/>
-        <Label x:Name="lblPercentuale" Content="" HorizontalAlignment="Left" Height="45" Margin="160,266,0,0" VerticalAlignment="Top" Width="112"/>
-        <Button Content="Percentuale" HorizontalAlignment="Left" Margin="160,222,0,0" VerticalAlignment="Top" Width="112" Height="48" Click="Button_Click"/>
-        <Button x:Name="btnRicomincia" Content="Ricomincia" HorizontalAlignment="Left" Height="48" Margin="520,222,0,0" VerticalAlignment="Top" Width="118" Click="btnRicomincia_Click"/>
+        <Label x:Name="lblPercentuale" Content="" HorizontalAlignment="Left" Height="45" Margin="231,106,0,0" VerticalAlignment="Top" Width="47" BorderBrush="White" OpacityMask="White" Background="{x:Null}" Foreground="White" FontFamily="Source Code Pro ExtraLight"/>
+        <Button Content="Percentuale" HorizontalAlignment="Left" Margin="160,222,0,0" VerticalAlignment="Top" Width="112" Height="48" Click="Button_Click" Background="{x:Null}" Foreground="White" FontFamily="Source Serif Pro Black" BorderBrush="White"/>
+        <Button x:Name="btnRicomincia" Content="Ricomincia" HorizontalAlignment="Left" Height="48" Margin="520,222,0,0" VerticalAlignment="Top" Width="118" Click="btnRicomincia_Click" Background="{x:Null}" BorderBrush="White" Foreground="White" FontFamily="Source Sans Pro Black"/>
+        <TextBox HorizontalAlignment="Left" Height="19" Margin="122,106,0,0" TextWrapping="Wrap" Text="Percentuale barra:" VerticalAlignment="Top" Width="104" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" FontFamily="Tw Cen MT"/>
 
     </Grid>
 </Window>
