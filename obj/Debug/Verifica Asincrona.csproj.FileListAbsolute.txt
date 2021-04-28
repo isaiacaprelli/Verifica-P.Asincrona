@@ -1,0 +1,15 @@
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\Verifica Asincrona.csprojAssemblyReference.cache
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\MainWindow.g.cs
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\App.g.cs
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\Verifica Asincrona_MarkupCompile.cache
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\Verifica Asincrona_MarkupCompile.lref
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\bin\Debug\Verifica Asincrona.exe.config
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\bin\Debug\Verifica Asincrona.exe
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\bin\Debug\Verifica Asincrona.pdb
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\MainWindow.baml
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\Verifica Asincrona.g.resources
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\Verifica_Asincrona.Properties.Resources.resources
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\Verifica Asincrona.csproj.GenerateResource.cache
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\Verifica Asincrona.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\Verifica Asincrona.exe
+C:\Users\utente\Desktop\isa\tps\Esercizio VERIFICA Asincrona\Verifica Asincrona\Verifica Asincrona\obj\Debug\Verifica Asincrona.pdb

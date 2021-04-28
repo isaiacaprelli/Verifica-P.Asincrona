@@ -12,6 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading.Tasks;
+using System.Threading;
+using System.IO;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace Verifica_Asincrona
 {
@@ -23,6 +28,43 @@ namespace Verifica_Asincrona
         public MainWindow()
         {
             InitializeComponent();
+
+            Thread barra = new Thread(Movimento);
+            barra.Start();
+            
+        }
+
+
+        public async void Movimento()
+        {
+            await Task.Run(() =>
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    Thread.Sleep(100);
+                    this.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+
+                            
+                            Progressbarx.Value = i;
+
+
+                    }));
+
+                }   
+            });
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lblPercentuale.Content = Progressbarx.Value + "%";
+        }
+
+        private void btnRicomincia_Click(object sender, RoutedEventArgs e)
+        {
+            Progressbarx.Visibility = 0;
+            Movimento();
         }
     }
 }

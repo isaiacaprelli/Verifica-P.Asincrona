@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Verifica_Asincrona"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid x:Name="btnPercentuale">
+        <ProgressBar x:Name="Progressbarx" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="242" Margin="278,106,0,0"/>
+        <Label x:Name="lblPercentuale" Content="" HorizontalAlignment="Left" Height="45" Margin="160,266,0,0" VerticalAlignment="Top" Width="112"/>
+        <Button Content="Percentuale" HorizontalAlignment="Left" Margin="160,222,0,0" VerticalAlignment="Top" Width="112" Height="48" Click="Button_Click"/>
+        <Button x:Name="btnRicomincia" Content="Ricomincia" HorizontalAlignment="Left" Height="48" Margin="520,222,0,0" VerticalAlignment="Top" Width="118" Click="btnRicomincia_Click"/>
+
     </Grid>
 </Window>
