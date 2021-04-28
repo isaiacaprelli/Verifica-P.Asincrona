@@ -34,24 +34,22 @@ namespace Verifica_Asincrona
             
         }
 
-
         public async void Movimento()
         {
             await Task.Run(() =>
-            {
-                for (int i = 0; i < 100; i++)
-                {
-                    Thread.Sleep(100);
+            {    
+                    
+                 for (int i = 0; i < 100; i++)
+                 {
+                    Thread.Sleep(200);
                     this.Dispatcher.BeginInvoke(new Action(() =>
                     {
-
-                            
-                            Progressbarx.Value = i;
-
+                       Progressbarx.Value = i;
 
                     }));
 
-                }   
+                 }
+                 
             });
             
         }
@@ -63,8 +61,9 @@ namespace Verifica_Asincrona
 
         private void btnRicomincia_Click(object sender, RoutedEventArgs e)
         {
-            Progressbarx.Visibility = 0;
+            Progressbarx.Value = 0;
             Movimento();
+
         }
     }
 }
